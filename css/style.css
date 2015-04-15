@@ -1,0 +1,553 @@
+/*------------------------------------Font Embed------------------------------------*/
+@font-face
+    {
+      font-family:'bodyfont';
+      src: url('../type/underwood/MyUnderwood-webfont.eot');
+      src: url('../type/underwood/MyUnderwood-webfont.ttf');
+      format('truetype');
+      font-weight:normal;
+      font-style:normal;
+      
+    }
+
+@font-face
+    {
+      font-family:'headerfont';
+	
+      src: url('../type/kulminoituva/kulminoituva-webfont.eot');
+      src: url('../type/kulminoituva/kulminoituva-webfont.ttf');
+      format('truetype');
+      font-weight:normal;
+      font-style:normal;
+      
+    }
+	
+@font-face
+{
+  font-family:'header2font';
+  src: url('../type/3dumb/3Dumb-webfont.eot');
+  src: url('../type/3dumb/3Dumb-webfont.ttf');
+  format('truetype');
+  font-weight:normal;
+  font-style:normal;
+  
+}
+	
+@font-face
+    {
+      font-family:'header3font';
+      src: url('../type/3dumb/2Dumb-webfont.eot');
+      src: url('../type/3dumb/2Dumb-webfont.ttf');
+      format('truetype');
+      font-weight:normal;
+      font-style:normal;
+      
+    }
+	
+	
+/*---------------------------------Default TAG styling--------------------------------*/
+body
+{
+background:url("../images/bg_tile.jpg");
+text-align:left;
+color:#666;
+font-size: 11px;
+font-family: bodyfont, Georgia, Times New Roman, serif;
+margin:0;
+padding: 0;
+}
+
+a
+{
+color:#3FC7BB;
+padding:0 5px;
+text-decoration:none;
+font-size:14px;
+letter-spacing:- -1px;
+}
+
+a:visited
+{
+color:#605DAC;
+padding: 0 5px;
+text-decoration: none;
+font-size: 14px;
+letter-spacing: -1px;
+}
+
+a:hover
+{
+color:#4d4d4d;
+padding: 0 5px;
+text-decoration:none;
+font-size: 36px;
+letter-spacing: -1px;
+}
+
+h1 a
+{
+text-align:left;
+margin-left:30px;
+font-size:40px;
+font-family: headerfont;
+color:#333333;
+font-weight:400;
+}
+
+h1 a:hover
+{
+text-align:left;
+margin-left:30px;
+font-size:42px;
+font-family: headerfont;
+color:#4d4d4d;
+font-weight:400;
+}
+
+h2
+{
+font-family: header2font;
+font-size:28px;
+color:#333;
+}
+
+h2 a
+{
+font-family: header2font;
+font-size:28px;
+color:#333;
+width:100px;
+border:none;
+padding: 35px 0 0 0;
+}
+
+h2 a:hover
+{
+font-family: header2font;
+font-size:32px;
+color:#605DAC;
+width:100px;
+border:none;
+padding: 35px 0 0 0;
+}
+
+h3
+{
+font-family: header3font;
+color:#464646;
+font-size:14px;
+}
+
+h3 a:hover
+{
+font-family: header3font;
+color:#605DAC;
+font-size:14px;
+}
+
+p
+{
+color:#464646;
+font-size:14px;
+letter-spacing:1px;
+line-height: 16px;
+font-family: bodyfont, Helvetica, Verdana, sans-serif;
+padding:0 0 10px;
+margin: 10px 30px 10px 30px;
+}
+
+img
+{
+border: none;
+}
+
+
+/*------------------------------------'id' Styling------------------------------------*/
+#title
+{
+width: 360px;
+height: 500px;
+float:left;
+margin: 30px 30px 0 600px;
+padding: 0;
+}
+
+
+#menu
+{
+background: #EDEBDC;
+position:fixed;
+bottom:0px;
+left:0px;
+right:0px;
+border: 0px solid #aaa;
+clear:both;
+float:none;
+font-family: Helvetica, sans-serif;
+text-transform:uppercase;
+margin:0;
+padding:3px;
+z-index: 500;
+}
+
+#menu ul
+{
+list-style-type: none;
+margin:0;
+padding:0;
+}
+
+#menu ul li
+{
+list-style-type:none;
+color:#777;
+display:inline;
+margin:0;
+padding:0 10px 0 10px;
+}
+
+#menu ul li a
+{
+text-decoration: none;
+list-style-type:none;
+color:#777;
+display:inline;
+margin:0;
+padding:0;
+}
+
+#menu ul li a:hover
+{
+text-decoration:none;
+list-style-type:none;
+color:#fff;
+display:inline;
+margin:0;
+padding:0;
+}
+
+#container
+{
+background:url(../images/bg_scroll2.jpg);
+position:absolute;
+top:0px;
+left:0px;
+width:12600px;
+margin:0;
+padding:0;
+}
+
+#frame1
+{
+width:800px;
+height:320px;
+margin: 0px 10px 10px 75px;
+}
+
+#frame2
+{
+width:800px;
+height:320px;
+margin: 0px 10px 10px 75px;
+}
+
+#frame3
+{
+width:800px;
+height:320px;
+margin: 0px 10px 10px 75px;
+}
+
+/*----------------------------class styling------------------------------------*/
+.boxa
+{
+background: url(../images/bg_box1.png);
+border:0px;
+width: 960px;
+height:540px;
+float: left;
+line-height:36px;
+margin:0px 180px 0px 180px;
+padding: 20px 30px 10px 30px;
+}
+
+.boxb
+{
+background: url(../images/bg_box2.png);
+border:0px;
+width: 960px;
+height:540px;
+float: left;
+line-height:36px;
+margin:0px 180px 0px 180px;
+padding: 20px 30px 10px 30px;
+}
+
+.boxc
+{
+background: url(../images/bg_box3.png);
+border:0px;
+width: 960px;
+height:540px;
+float: left;
+line-height:36px;
+margin:0px 180px 0px 180px;
+padding: 20px 30px 10px 30px;
+}
+
+.box p
+{
+color:#333333;
+font-size:11px;
+line-height: 20px;
+padding:10px 10px 10px;
+margin: 10px 0 10px 0;
+}
+
+.textbox1
+{
+float:right;
+margin: 20px 60px 10px 0px;
+padding: 10px 0px 10px 0px;
+width:400px;
+border:dotted #333;
+}
+
+.textbox2
+{
+float:left;
+margin: 20px 0px 10px 60px;
+padding: 10px 0px 10px 0px;
+width:400px;
+border:dotted #333;
+}
+
+.imagebox1
+{
+float:left;
+width:100px;
+padding:25px 10px 10px 100px;
+}
+
+.imagebox2
+{
+float:right;
+padding:25px 130px 10px 20px;
+}
+
+.tutheader
+{
+float:right;
+margin:100px 20px 10px 20px;
+padding: 10px 10px 10px 10px;
+width:350px;
+}
+
+.tutmenu ul
+{
+background:#EDEBDC;
+border:2px solid #333;
+width:360px;
+list-style-type: none;
+margin:30px 0px 0px 75px;
+filter: alpha(opacity=50);
+opacity: 0.50;
+}
+
+.tutmenu ul li
+{
+
+list-style-type:none;
+color:#333;
+display:inline;
+margin:20px;
+}
+
+.tutmenu ul li a
+{
+color:#605DAC;
+font-size:14px;
+}
+
+.tutmenu ul li a:active
+{
+color:#333;
+font-size:14px;
+}
+
+.tutmenu ul li a:visited
+{
+color:#666;
+font-size:12px;
+}
+
+.tutmenu ul li a:hover
+{
+color:#605DAC;
+font-size:14px;
+}
+
+.tuttextbox1
+{
+float:right;
+margin:20px 20px 10px 20px;
+padding: 10px 10px 10px 10px;
+width:350px;
+}
+
+.tuttextbox1 p a
+{
+	
+}
+
+.tuttextbox1 p a:hover
+{
+color:#605DAC;
+font-size:18px;	
+}
+
+.tuttextbox2
+{
+float:left;
+margin:20px 20px 10px 20px;
+padding: 10px 10px 10px 10px;
+width:300px;
+}
+
+.tutimagebox1
+{
+float:left;
+width:100px;
+padding:25px 10px 10px 20px;
+}
+
+.tutimagebox2
+{
+float:right;
+padding:25px 100px 10px 20px;
+}
+
+.downloadbox
+{
+float:left;
+width:300px;
+margin:10px 0px 0px 60px;
+}
+
+.downloadbox a
+{
+float:right;
+font-size:14px;
+}
+
+.downloadbox a:hover
+{
+font-size:14px;
+}
+
+.lawbox
+{
+float:left;
+margin: 0px 0px 10px 120px;
+padding: 10px 10px 10px 10px;
+font-size:16px;
+width:700px;
+height:100px;
+border: 0px;	
+}
+
+.connectbox
+{
+float:left;
+width:300px;
+margin:10px 0px 0px 120px;
+}
+
+.tutmainbox
+{
+background:url(../images/img_tutmain.png) no-repeat;
+margin-left:100px;
+width:800px;
+height:400px;
+}
+
+.icon1
+{
+float:left;
+margin:95px 0px 0px 45px;
+}
+
+.icon2
+{
+float:right;
+margin:0px 270px 0px 0px;
+}
+
+.icon3
+{
+float:left;
+margin:160px 0px 0px 80px;
+}
+
+.gallery
+{
+width:530px;
+height:300px;
+float:right;
+margin:0px 20px 0px 0px;
+}
+
+.gallerytxt
+{
+border: dotted #333333;
+width:250px;
+height: 350px;
+float:left;
+font-size:14px;
+padding:20px 20px 20px 20px;
+margin:10px 0px 20px 60px;
+}
+
+.sizebox
+{
+float:right;
+width:550px;
+height:100px;
+text-align:center;
+margin:10px 0px 0px 20px;
+}
+
+.sizebox a
+{
+font-family:bodyfont;
+font-size:12px;
+font-color:#605DAC;
+}
+
+.sizebox a:hover
+{
+font:bodyfont;
+font-color:#605DAC;
+}
+
+.sizeboxmini1
+{
+height:90px;
+float:left;
+padding:0px 60px 0px 60px;
+}
+
+.sizeboxmini2
+{
+height:90px;
+float:left;
+padding:0px 40px 0px 30px;
+}
+
+
+.sizeboxmini3
+{
+height:90px;
+float:left;
+padding:0px 20px 0px 60px;
+}
